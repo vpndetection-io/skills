@@ -132,7 +132,7 @@ def refuse_vpn
   result = VPNDetection::Rails.lookup(request)&.result
   return unless result&.vpn? || result&.tor? || result&.relay?
 
-  redirect_back fallback_location: root_path, alert: "Please turn off your VPN or proxy to create an account."
+  redirect_back fallback_location: "/", alert: "Please turn off your VPN or proxy to create an account."
 end
 ```
 
