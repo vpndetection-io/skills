@@ -14,7 +14,7 @@ The [skills](https://skills.sh) CLI asks which agents to install them into, and 
 
 ## What's in it
 
-- `example`: <what it does, in one line>.
+- `block-vpn-signups`: adds a sign-up check to a Next.js, Express, Better Auth, Django, Laravel or Rails app, refusing accounts from VPNs, Tor exits and relays (and residential proxies and datacenters, with a paid key) through our official libraries. It fails open, so an outage of ours never stops a sign-up.
 
 ## What it sends
 
